@@ -64,8 +64,11 @@ Then
 ```
 yarn start
 
-yarn run ios --simulator='iPhone SE (2nd generation)
+yarn run ios --simulator='iPhone SE (2nd generation)'
 
+OR
+
+yarn run ios --device="booboo"
 ```
 
 Simulator name get be get from `xcrun simctl list devices`
